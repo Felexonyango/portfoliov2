@@ -18,16 +18,18 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Allow me to share a glimpse of my recent project endeavors. Several of these projects are available on GitHub, including my daily practice of LeetCode challenges aimed at enhancing my programming skills.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Project Managment"
+              description="Developed a project management software designed for efficient product management, streamlining deliverable tracking, ensuring milestone achievements, and enhancing overall success.It  utilizes Angular, Primeng, Rxjs  and ExpressJs. The system includes features such as task assignment, file uploads ,role based permissions and real-time notifications for impending deadlines. It facilitates easy categorization of products into distinct departments through the utilization of workspaces, showcasing its multi-tenant capability. This project exemplifies my proficiency in software development and practical implementation of project management solutions
+              
+              "
+              ghLink="https://github.com/Felexonyango/project-learn"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,8 +38,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Leave Managment"
+              description="Engineered a comprehensive leave management solution  utilizing Angular, Rxjs, NgRx and Express Js. Application is  tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -47,10 +49,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="E-commerce "
+              description="Created a robust e-commerce application utilizing React,Redux, TypeScript, and Express.js. This platform facilitates seamless transactions, empowering businesses to effortlessly offer and acquire a wide range of goods and services. This solution enhances the customer experience while driving business growth through streamlined sales processes"
+              ghLink="https://github.com/Felexonyango/ngrx-learn"
+              demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -58,9 +60,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Movie App"
+              description="Presenting a cutting-edge movie application designed to empower users with the ability to explore the latest global cinematic releases. This innovative platform is engineered using a technology stack that includes React, Redux Toolkit, and a blend of Sass and CSS, ensuring a visually captivating and user-friendly experience. Stay ahead in the entertainment industry with this dynamic solution, offering users the convenience to discover and engage with the most recent movie releases from around the world."
+              ghLink="https://github.com/Felexonyango/movieApp"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -69,10 +71,13 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Mobile Ecommerce App"
+              description="Presenting a Cutting-Edge Mobile Ecommerce Solution: Your Gateway to Seamless Shopping
+
+              Unlock a new realm of shopping convenience with our expertly developed Mobile Ecommerce App. Designed exclusively for authorized users, this platform grants access to a curated array of products, revolutionizing the browsing, shopping, and order fulfillment experience.
+              
+              Leveraging a powerful technology stack including React Native, Expo CLI, Firebase, and robust push notifications, our solution ensures top-notch security and interactivity. Elevate your business's online retail prowess and customer engagement with this visionary platform"
+              ghLink="https://github.com/Felexonyango/E-commerce"
             />
           </Col>
 
@@ -80,11 +85,14 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Developer connector Social app"
+              description="Unveiling a Global Developer Connector: The Ultimate Social Application Powered by React, Redux, Express.js, Sockets, and MongoDB
+
+              Discover the transformative Developer Connector app, ingeniously crafted to unite developers and nurture talents worldwide. Harnessing the prowess of React, Redux, Express.js, Sockets, and MongoDB, this application serves as the epicenter for developers to connect, fostering mentorship and fostering interactions within dynamic chat rooms.
+              
+              Step into a new era of collaborative development, where expertise meets innovation and connections transcend boundaries. Embrace a global community dedicated to advancing the world of programming"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+             
             />
           </Col>
         </Row>
