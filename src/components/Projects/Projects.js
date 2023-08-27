@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import movieapp from "../../Assets/Projects/movieapp.PNG";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import PM from "../../Assets/Projects/PM.PNG";
@@ -44,8 +44,8 @@ function Projects() {
               isBlog={false}
               title="Leave Managment"
               description="Engineered a comprehensive leave management solution utilizing Angular, RxJS, NgRx, MongoDB and Express.js. The application is tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction. The system was well-written with unit testing, ensuring robustness and reliability in its functionality. This approach not only guaranteed the software's stability but also facilitated easier maintenance and future enhancements"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/Felexonyango/ngrx-learn"
+              demoLink=""
             />
           </Col>
 
@@ -55,19 +55,19 @@ function Projects() {
               isBlog={false}
               title="E-commerce "
               description="Created a robust e-commerce application utilizing React,Redux, TypeScript, and Express.js. This platform facilitates seamless transactions, empowering businesses to effortlessly offer and acquire a wide range of goods and services. This solution enhances the customer experience while driving business growth through streamlined sales processes"
-              ghLink="https://github.com/Felexonyango/ngrx-learn"
-              demoLink="https://editor.soumya-jit.tech/"
+              ghLink="https://github.com/Felexonyango/Ecommerce-web"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={movieapp}
               isBlog={false}
               title="Movie App"
               description="Presenting a cutting-edge movie application designed to empower users with the ability to explore the latest global cinematic releases. This innovative platform is engineered using a technology stack that includes React, Redux Toolkit, and a blend of Sass and CSS, ensuring a visually captivating and user-friendly experience. Stay ahead in the entertainment industry with this dynamic solution, offering users the convenience to discover and engage with the most recent movie releases from around the world."
               ghLink="https://github.com/Felexonyango/movieApp"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://react-reduxtoolkit-movie-app.netlify.app/"
             />
           </Col>
 
@@ -95,7 +95,7 @@ function Projects() {
               Discover the transformative Developer Connector app, ingeniously crafted to unite developers and nurture talents worldwide. Harnessing the prowess of React, Redux, Express.js, Sockets, and MongoDB, this application serves as the epicenter for developers to connect, fostering mentorship and fostering interactions within dynamic chat rooms.
               
               Step into a new era of collaborative development, where expertise meets innovation and connections transcend boundaries. Embrace a global community dedicated to advancing the world of programming"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/Felexonyango/DevConnector"
             />
           </Col>
         </Row>
