@@ -6,7 +6,7 @@ import movieapp from "../../Assets/Projects/movieapp.PNG";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import PM from "../../Assets/Projects/PM.PNG";
-import suicide from "../../Assets/Projects/suicide.png";
+import mobileapp from "../../Assets/Projects/mobileapp.PNG";
 import LeaveM from "../../Assets/Projects/LeaveM.PNG";
 
 function Projects() {
@@ -73,7 +73,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={mobileapp}
               isBlog={false}
               title="Mobile Ecommerce App"
               description="Presenting a Cutting-Edge Mobile Ecommerce Solution: Your Gateway to Seamless Shopping
