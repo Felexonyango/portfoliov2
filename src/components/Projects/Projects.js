@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import PM from "../../Assets/Projects/PM.PNG";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import LeaveM from "../../Assets/Projects/LeaveM.PNG";
 
 function Projects() {
   return (
@@ -18,28 +18,32 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-        Allow me to share a glimpse of my recent project endeavors. Several of these projects are available on GitHub, including my daily practice of LeetCode challenges aimed at enhancing my programming skills.
+          Let me offer you a glimpse into my recent project endeavors. A number
+          of these projects are accessible on GitHub, spanning from Monorepos
+          created using the NX tool, to my daily practice of tackling LeetCode
+          challenges. These efforts are all aimed at enhancing and honing my
+          programming skills.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={PM}
               isBlog={false}
               title="Project Managment"
               description="Developed a project management software designed for efficient product management, streamlining deliverable tracking, ensuring milestone achievements, and enhancing overall success.It  utilizes Angular, Primeng, Rxjs  and ExpressJs. The system includes features such as task assignment, file uploads ,role based permissions and real-time notifications for impending deadlines. It facilitates easy categorization of products into distinct departments through the utilization of workspaces, showcasing its multi-tenant capability. This project exemplifies my proficiency in software development and practical implementation of project management solutions
               
               "
               ghLink="https://github.com/Felexonyango/project-learn"
-              demoLink="https://chatify-49.web.app/"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={LeaveM}
               isBlog={false}
               title="Leave Managment"
-              description="Engineered a comprehensive leave management solution  utilizing Angular, Rxjs, NgRx and Express Js. Application is  tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction"
+              description="Engineered a comprehensive leave management solution utilizing Angular, RxJS, NgRx, MongoDB and Express.js. The application is tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction. The system was well-written with unit testing, ensuring robustness and reliability in its functionality. This approach not only guaranteed the software's stability but also facilitated easier maintenance and future enhancements"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -92,7 +96,6 @@ function Projects() {
               
               Step into a new era of collaborative development, where expertise meets innovation and connections transcend boundaries. Embrace a global community dedicated to advancing the world of programming"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-             
             />
           </Col>
         </Row>
