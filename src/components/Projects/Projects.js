@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import movieapp from "../../Assets/Projects/movieapp.PNG";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import dev from "../../Assets/Projects/dev.PNG";
+import Ecom from "../../Assets/Projects/Ecom.PNG";
 import PM from "../../Assets/Projects/PM.PNG";
 import mobileapp from "../../Assets/Projects/mobileapp.PNG";
 import LeaveM from "../../Assets/Projects/LeaveM.PNG";
@@ -51,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Ecom}
               isBlog={false}
               title="E-commerce "
               description="Created a robust e-commerce application utilizing React,Redux, TypeScript, and Express.js. This platform facilitates seamless transactions, empowering businesses to effortlessly offer and acquire a wide range of goods and services. This solution enhances the customer experience while driving business growth through streamlined sales processes"
@@ -87,7 +87,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={dev}
               isBlog={false}
               title="Developer connector Social app"
               description="Unveiling a Global Developer Connector: The Ultimate Social Application Powered by React, Redux, Express.js, Sockets, and MongoDB
