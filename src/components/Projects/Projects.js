@@ -29,12 +29,12 @@ function Projects() {
             <ProjectCard
               imgPath={PM}
               isBlog={false}
-              title="Project Managment"
+              title="Project Management"
               description="Developed a project management software designed for efficient product management, streamlining deliverable tracking, ensuring milestone achievements, and enhancing overall success.It  utilizes Angular, Primeng, Rxjs  and ExpressJs. The system includes features such as task assignment, file uploads ,role based permissions and real-time notifications for impending deadlines. It facilitates easy categorization of products into distinct departments through the utilization of workspaces, showcasing its multi-tenant capability. This project exemplifies my proficiency in software development and practical implementation of project management solutions
               
               "
               ghLink="https://github.com/Felexonyango/project-learn"
-              demoLink=""
+              demoLink="https://felex-onyango-project-managment.netlify.app/"
             />
           </Col>
 
@@ -42,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={LeaveM}
               isBlog={false}
-              title="Leave Managment"
+              title="Leave Management"
               description="Engineered a comprehensive leave management solution utilizing Angular, RxJS, NgRx, MongoDB and Express.js. The application is tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction. The system was well-written with unit testing, ensuring robustness and reliability in its functionality. This approach not only guaranteed the software's stability but also facilitated easier maintenance and future enhancements"
               ghLink="https://github.com/Felexonyango/ngrx-learn"
               demoLink=""
@@ -56,7 +56,7 @@ function Projects() {
               title="E-commerce "
               description="Created a robust e-commerce application utilizing React,Redux, TypeScript, and Express.js. This platform facilitates seamless transactions, empowering businesses to effortlessly offer and acquire a wide range of goods and services. This solution enhances the customer experience while driving business growth through streamlined sales processes"
               ghLink="https://github.com/Felexonyango/Ecommerce-web"
-              demoLink=""
+              demoLink="https://felex-eshop.netlify.app/"
             />
           </Col>
 
@@ -75,10 +75,10 @@ function Projects() {
             <ProjectCard
               imgPath={mobileapp}
               isBlog={false}
-              title="Mobile Ecommerce App"
-              description="Presenting a Cutting-Edge Mobile Ecommerce Solution: Your Gateway to Seamless Shopping
+              title="Mobile E-commerce App"
+              description="Presenting a Cutting-Edge Mobile E-commerce Solution: Your Gateway to Seamless Shopping
 
-              Unlock a new realm of shopping convenience with our expertly developed Mobile Ecommerce App. Designed exclusively for authorized users, this platform grants access to a curated array of products, revolutionizing the browsing, shopping, and order fulfillment experience.
+              Unlock a new realm of shopping convenience with our expertly developed Mobile E-commerce App. Designed exclusively for authorized users, this platform grants access to a curated array of products, revolutionizing the browsing, shopping, and order fulfillment experience.
               
               Leveraging a powerful technology stack including React Native, Expo CLI, Firebase, and robust push notifications, our solution ensures top-notch security and interactivity. Elevate your business's online retail prowess and customer engagement with this visionary platform"
               ghLink="https://github.com/Felexonyango/E-commerce"
