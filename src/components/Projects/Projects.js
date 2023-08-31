@@ -45,7 +45,7 @@ function Projects() {
               title="Leave Management"
               description="Engineered a comprehensive leave management solution utilizing Angular, RxJS, NgRx, MongoDB and Express.js. The application is tailored for organizations, streamlining onboarding processes and enhancing leave tracking within the company. This system significantly simplifies the complex task of managing leaves, contributing to improved efficiency and employee satisfaction. The system was well-written with unit testing, ensuring robustness and reliability in its functionality. This approach not only guaranteed the software's stability but also facilitated easier maintenance and future enhancements"
               ghLink="https://github.com/Felexonyango/ngrx-learn"
-              demoLink=""
+              demoLink="https://felex-leave-managment.netlify.app"
             />
           </Col>
 
